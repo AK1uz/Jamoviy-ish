@@ -1,0 +1,106 @@
+.Akbarjon-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  font-family: sans-serif;
+}
+
+.Akbarjon-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 0;
+}
+
+.Akbarjon-logo-blok {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.Akbarjon-icon {
+  width: 30px;
+  height: 30px;
+  background-color: #8a7fc4;
+  border-radius: 8px;
+}
+
+.Akbarjon-yozuv {
+  font-size: 26px;
+  font-weight: 800;
+  color: #4a4a68;
+}
+
+.Akbarjon-menyu {
+  display: flex;
+  list-style: none;
+  gap: 35px;
+}
+
+.Akbarjon-menyu a {
+  text-decoration: none;
+  color: #555;
+  font-weight: 500;
+}
+
+.Akbarjon-tugma-oq {
+  padding: 12px 25px;
+  border: 2px solid #e0e0f0;
+  background: transparent;
+  border-radius: 15px;
+  color: #4a4a68;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.Akbarjon-hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 100px 0;
+}
+
+.Akbarjon-chap-tomon {
+  flex: 1;
+}
+
+.Akbarjon-sarlavha-binafsha {
+  color: #8a7fc4;
+  font-size: 45px;
+  margin-bottom: 5px;
+}
+
+.Akbarjon-sarlavha-katta {
+  font-size: 38px;
+  color: #333;
+  margin-bottom: 45px;
+  line-height: 1.1;
+}
+
+.Akbarjon-tugma-asosiy {
+  background-color: #7d70c4;
+  color: white;
+  padding: 20px 50px;
+  border: none;
+  border-radius: 18px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 8px 15px rgba(125, 112, 196, 0.3);
+}
+
+.Akbarjon-narx {
+  margin-top: 15px;
+  color: #999;
+}
+
+.Akbarjon-oong-tomon {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.Akbarjon-rasm-joyi {
+  position: relative;
+}
+
