@@ -1,14 +1,165 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    list-style: none;
-    text-decoration: none;
+@import url('https://fonts.googleapis.com/css2?family=Changa+One:ital@0;1&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
 }
 
-.help-container {
+.container {
   max-width: 1100px;
-  margin: 40px auto;
+  margin: auto;
+}
+
+.left {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+.box {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 123px;
+}
+
+.sect1 {
+  margin-top: 40px;
+}
+
+.card-box {
+  margin-top: 60px;
+}
+
+.sect1-p {
+  font-size: 20px;
+  width: 450px;
+}
+
+.box-number {
+  font-size: 100px;
+  color: #7872B9;
+  font-family: "Changa One", sans-serif;
+}
+
+.no-btn {
+  color: white;
+  padding: 20px 60px;
+  font-size: 16px;
+  border: none;
+  border-radius: 20px;
+  background-color: #7872B9;
+  box-shadow: 10px 15px 1px #CDE1FF;
+}
+
+.sect-tittle {
+  font-size: 40px;
+  text-align: center;
+  color: #7872B9;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  background-color: #EBF5FF;
+  border-radius: 20px;
+  padding: 36px 100px;
+  margin-top: 20px;
+}
+
+.p-and-m {
+  color: rgb(255, 204, 0);
+}
+
+.h1 {
+  font-size: 20px;
+}
+
+.p {
+  font-size: 18px;
+  width: 780px;
+  margin-top: 20px;
+}
+
+.youmi {
+  background: #f5f6fb;
+  padding: 80px 20px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.youmi-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 60px;
+}
+
+.youmi-left {
+  max-width: 520px;
+}
+
+.youmi-left h2 {
+  font-size: 36px;
+  color: #6b6fcf;
+  margin-bottom: 20px;
+  line-height: 1.3;
+}
+
+.desc {
+  color: #6f6f7b;
+  margin-bottom: 25px;
+  font-size: 16px;
+}
+
+.youmi-list {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 30px;
+}
+
+.youmi-list li {
+  position: relative;
+  padding-left: 30px;
+  margin-bottom: 15px;
+  color: #555;
+  line-height: 1.5;
+}
+
+.youmi-list li::before {
+  content: "✔";
+  position: absolute;
+  left: 0;
+  color: #f5b942;
+  font-weight: bold;
+}
+
+.app-btn {
+  background: #6b6fcf;
+  color: white;
+  border: none;
+  padding: 14px 28px;
+  border-radius: 12px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.app-btn:hover {
+  background: #585cc0;
+}
+
+.youmi-right img {
+  width: 320px;
+  max-width: 100%;
+}
+
+.help-box {
   padding: 40px;
   background: #f3f5fb;
   border-radius: 16px;
